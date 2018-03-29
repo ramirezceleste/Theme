@@ -81,7 +81,7 @@ function map() {
 
         function initMap() {
 
-            var location = new google.maps.LatLng(50.0875726, 14.4189987);
+            var location = new google.maps.LatLng(32.895761, -117.146108);
 
             var mapCanvas = document.getElementById('map');
             var mapOptions = {
@@ -93,7 +93,7 @@ function map() {
             }
             var map = new google.maps.Map(mapCanvas, mapOptions);
 
-            var markerImage = 'img/marker.png';
+            // var markerImage = 'img/marker.png';
 
             var marker = new google.maps.Marker({
                 position: location,
